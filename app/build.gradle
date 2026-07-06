@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.revyl.smokeandroid'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.revyl.smokeandroid"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // Sign with the auto-generated debug keystore so the APK is installable.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

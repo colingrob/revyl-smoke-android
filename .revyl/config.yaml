@@ -1,0 +1,7 @@
+build:
+  platforms:
+    android:
+      app_id: "3cf819a2-d285-4d12-80ef-2c9259117b23"
+      commands:
+        - ./gradlew assembleRelease
+      output: app/build/outputs/apk/release/*.apk
