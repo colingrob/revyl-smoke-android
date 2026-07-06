@@ -1,4 +1,8 @@
 build:
+  source:
+    type: git
+    repo_url: https://github.com/colingrob/revyl-smoke-android.git
+    ref: main
   platforms:
     android:
       app_id: "3cf819a2-d285-4d12-80ef-2c9259117b23"
