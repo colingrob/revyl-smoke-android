@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView view = new TextView(this);
-        view.setText("Revyl smoke test app");
+        view.setText("Revyl PR smoke test app");
         view.setTextSize(24);
         view.setGravity(Gravity.CENTER);
         setContentView(view);
